@@ -24,7 +24,7 @@ class ProductsController < ApplicationController
   end
 
   def new
-  	@product = Product.new
+  	@product = Product.new(product.product_params)
 
   	respond_to do |format|
   		format.html #new.html.erb
@@ -38,7 +38,7 @@ class ProductsController < ApplicationController
   end
 
   def create
-  	@product = Product.new(params[:product])
+  	@product = Product.new(params [:product])
 
   	respond_to do |format|
 
@@ -76,7 +76,7 @@ class ProductsController < ApplicationController
   		format.html { redirect_to products_url }
   		format.json { head :no_content }
   	end
-  	
+
   end
 
 end
