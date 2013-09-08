@@ -24,7 +24,7 @@ class ProductsController < ApplicationController
   end
 
   def new
-  	@product = Product.new(product.product_params)
+  	@product = Product.new
 
   	respond_to do |format|
   		format.html #new.html.erb
@@ -64,7 +64,7 @@ class ProductsController < ApplicationController
 	  		format.json { render json: @product.errors, status: :unprocessable_entity}
 
 	  	end
-	end
+	  end
 
   end
 
