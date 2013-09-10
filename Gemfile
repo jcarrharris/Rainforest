@@ -7,7 +7,12 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
+
+gem 'rspec-rails'
+
 gem 'bcrypt-ruby', '~> 3.0.0'
+
+gem "factory_girl_rails", "~> 4.0"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -18,6 +23,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
+  gem 'faker'
   gem 'uglifier', '>= 1.0.3'
 end
 

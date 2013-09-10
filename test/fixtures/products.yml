@@ -1,0 +1,11 @@
+moon_boots: 
+	name: "Tecnica Moon Boots"
+	description: "Original from Italy  Tecnica - made in super lightweight materials, water-resistant and vey warm! - 35C. Moonboots fits more in one: 39-41 is one size but fits from 39 to size 41. The height of the boots will change with the size. We have the largest selection of colours and original Moon Boots styles in the World. Tecnica Moon Boot collection Winter 2012-13."
+  	price_in_cents: 4900000
+
+shorts:
+	name: "9-inch Stanton Short In Space-Dyed Stripe"
+	description: "The one and only Stanton—our casual weather-beaten short in a classic fit with a twist. What is space dye? It's the coloring of thread in different intervals, which adds some character to the fabric. This short is dyed in a shade of indigo in a stripe pattern for a unique style to mix in with your summertime wardrobe."
+	price_in_cents: 790000
+
+	
